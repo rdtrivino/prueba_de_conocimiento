@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aprendiz SENA</title>
+    <link rel="stylesheet" type="text/css" href="morse.css">
+    <script src="morse.js"></script>
+</head>
+<body>
+    <h1>Aprendiz Rubén Dario Triviño Diaz - Programa ADSO</h1>
+
+    <h2>Traductor de Código Morse</h2>
+    <label for="morseInput">Código Morse:</label>
+    <input type="text" id="morseInput" placeholder="Ingrese su código Morse"><br>
+    <button onclick="morseToText()">Traducir a Texto</button><br>
+    <p id="translatedText"></p>
+
+    <h2>Traductor de Texto a Código Morse</h2>
+    <label for="textInput">Texto:</label>
+    <input type="text" id="textInput" placeholder="Ingrese su mensaje"><br>
+    <button onclick="textToMorse()">Traducir a Código Morse</button><br>
+    <p id="morseCode"></p>
+
+    <div id="gracias">
+        <h3>¡¡Gracias!!</h3>
+    </div>
+</body>
+</html>
